@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.skypeemail"
+    },
+    "jhipsterVersion": "4.1.1",
+    "baseName": "skypeemail",
+    "packageName": "com.skypeemail",
+    "packageFolder": "com/skypeemail",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "1ce9da3998139b1951e6be6feb2777d932128ed5",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "clientPackageManager": "yarn"
+  }
+}
